@@ -1,3 +1,33 @@
+body {
+  background-color: #feefe5;
+  margin: 50px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1d3533;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
 .fascinating-words {
   font-family: fantasy;
 }
@@ -7,15 +37,9 @@
   height: 10%;
 }
 
-.tree-logo:hover {
-  animation: bounce 1s;
-}
-
 .centered-items {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
 }
