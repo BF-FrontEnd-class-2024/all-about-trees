@@ -21,3 +21,4 @@
           sections_
   - As a user I can contact us to learn more about our project
     - [ ] _there is a footer with contact info_
+
