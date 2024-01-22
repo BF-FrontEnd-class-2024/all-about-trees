@@ -32,7 +32,6 @@ h1 {
   font-family: fantasy;
 }
 
-
 .tree-logo {
   width: 10%;
   height: 10%;
@@ -46,7 +45,7 @@ h1 {
 }
 
 .bottom-divider {
-  border-style: none none solid none;
+  border-style: solid none;
 }
 
 .spaced-items {
