@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -25,7 +25,12 @@ img {
 h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 22px;
+  font-size: 18px;
+}
+
+h2,
+h3 {
+  margin-top: 40px;
 }
 
 .fascinating-words {
