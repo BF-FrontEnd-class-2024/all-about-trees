@@ -1,9 +1,15 @@
 body {
   background-color: #feefe5;
-  margin: 50px;
+  margin: 20px 50px;
   font-size: 18px;
   line-height: 1.5;
   color: #1d3533;
+}
+
+a {
+  color: #1d3533;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 header {
@@ -15,6 +21,7 @@ img {
 }
 
 .container {
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
