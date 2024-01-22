@@ -2,16 +2,14 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
+"About the trees" is a project immersed in the authentic hues of nature. Our
+choice of natural colors creates a visual narrative that mirrors the organic
+beauty of trees. This intentional palette not only enhances visual appeal but
+also underscores our commitment to sustainability.
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
+## Colors
 
----
+- background-color: #FEEFE5;
+- text-color: #1D3533;
 
-## Wireframe(s)
-
-> Include your wireframe(s) and link to wireframe
-
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+## Logo
