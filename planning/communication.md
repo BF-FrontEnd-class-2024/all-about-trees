@@ -2,43 +2,37 @@
 
 ## Group Rules
 
-<!-- any general rules you'd like to set for your group? -->
-
----
+- Stuck?! Ask!
+- Stuck?! Google!
+- Stuck?! Keep calm and keep doing!
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+| Day   |  How  | The topic of discussion    |
+| ----- | :---: | -------------------------- |
+| 1 day | Group | How to organise the things |
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+For the communication we will use Slack
 
-- **Issues**:
-- **Pull Requests**:
-- **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
-
----
+- Divide the project between all the members
+- Pull Requests
+- GitHub Discussions
+- Help/guide each other
 
 ## Availability
 
 ### Availability for calling/messaging
 
-| Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
-| ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
-| _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+January 22, from 9:00 until 17:00
 
 ### How many hours everyone has per day
 
-- name: _5h_; extra comments?
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Rohma: _7h_;
+- Ramya: _7h_;
+- Richelle: _7h_;
+- Daria: _7h_;
 
 ## Asking for Help
 
