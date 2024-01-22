@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <!-- Include the appropriate font-awesome CDN for the icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
+  <!-- Include the appropriate font-awesome CDN for the icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
-  <body>
-    <div class="footer">
-      <div class="footer-links">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-copyright">
-        This made <i class="fas fa-heart"></i> by HYF students group-1
-      </div>
+  <link href="./styles/index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="footer">
+    <div class="footer-links">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
     </div>
-  </body>
+    <div class="footer-copyright">
+      This made <i class="fas fa-heart"></i> by HYF students group-1
+    </div>
+  </div>
+</body>
+
 </html>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  body>.footer {
+    margin-top: auto;
+    margin-bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Style the footer links */
+  body>.footer .footer-links a {
+    color: #fff;
+    /* Link text color */
+    text-decoration: none;
+    /* Remove underline */
+    margin: 0 10px;
+    /* Add some spacing between links */
+  }
+
+  body>.footer .footer-copyright i {
+    color: #ff0000;
+  }
+
+  body>.footer .footer-copyright i:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+</style>

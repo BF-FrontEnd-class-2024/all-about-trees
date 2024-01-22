@@ -1,3 +1,12 @@
+/* Style the body to act as a flex container */
 body {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+/* Center the footer vertically and horizontally */
+body > .footer {
+  margin-top: auto; /* Push the footer to the bottom of the flex container */
+  margin-bottom: 0; /* Remove default margin from the footer */
 }
