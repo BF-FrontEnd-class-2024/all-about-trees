@@ -1,6 +1,7 @@
-# Name of project
+# BREATHE LIFE, PLANT A TREE
 
-> A longer description
+> Trees, nature's guardians, embody harmony, offering oxygen, shelter, and
+> beauty in their diverse and resilient existence.
 
 ## Table of contents
 
