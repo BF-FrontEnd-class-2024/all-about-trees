@@ -1,3 +1,14 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
 body {
   background-color: #feefe5;
   margin: 20px 50px;
@@ -12,14 +23,17 @@ a {
   text-decoration: none;
 }
 
+/* Header Styles */
 header {
   margin-bottom: 20px;
 }
 
+/* Image Styles */
 img {
   max-width: 100%;
 }
 
+/* Container Styles */
 .container {
   margin-top: 30px;
   display: flex;
@@ -29,6 +43,7 @@ img {
   gap: 50px;
 }
 
+/* Heading Styles */
 h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -40,15 +55,18 @@ h3 {
   margin-top: 40px;
 }
 
+/* Special Words Styling */
 .fascinating-words {
   font-family: fantasy;
 }
 
+/* Logo Styles */
 .tree-logo {
   width: 10%;
   height: 10%;
 }
 
+/* Centered Items Styles */
 .centered-items {
   display: flex;
   flex-direction: column;
@@ -56,10 +74,12 @@ h3 {
   align-items: center;
 }
 
+/* Bottom Divider Styles */
 .bottom-divider {
   border-style: solid none;
 }
 
+/* Spaced Items Styles */
 .spaced-items {
   display: flex;
   flex-direction: row;
@@ -67,4 +87,30 @@ h3 {
   justify-content: space-around;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer Links Styles */
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Footer Copyright Styles */
+.footer-copyright i {
+  color: #ff0000;
+}
+
+/* Optional: Style the heart icon with animation on hover */
+.footer-copyright i:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
 }
